@@ -83,6 +83,7 @@ plot(pca$x[,1:2], col=as.factor(bioData_clean$class),pch=19)
 # and models like random forest, gradient boosting, and nonlineat svm will be a
 # better choice.
 
+## Srivatsan's part
 library(randomForest)
 library(MASS)
 library(glmnet)
